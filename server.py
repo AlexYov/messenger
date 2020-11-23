@@ -1,7 +1,7 @@
 import socket
 from time import sleep
-import psycopg2
 import sqlite3
+import threading
 
 class Server:
         def __init__(self,host,port):     
